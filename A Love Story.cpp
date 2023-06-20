@@ -10,7 +10,6 @@ typedef long long int ll;
 typedef unsigned long long int llu;
 int main()
 {
-
     faster;
     int t;
     cin >> t;
@@ -22,45 +21,75 @@ int main()
         len = s.size();
         for (int i = 0; i < len; i++)
         {
-            if (s[0] == 'c')
+            if (i == 0)
             {
-                c++;
+                if (s[i] == 'c')
+                {
+                    c++;
+                }
             }
-            else if (s[1] == 'o')
+            if (i == 1)
             {
-                c++;
+                if (s[i] == 'o')
+                {
+                    c++;
+                }
             }
-            else if (s[2] == 'd')
+            if (i == 2)
             {
-                c++;
+                if (s[i] == 'd')
+                {
+                    c++;
+                }
             }
-            else if (s[3] == 'e')
+            if (i == 3)
             {
-                c++;
+                if (s[i] == 'e')
+                {
+                    c++;
+                }
             }
-            else if (s[4] == 'f')
+            if (i == 4)
             {
-                c++;
+                if (s[i] == 'f')
+                {
+                    c++;
+                }
             }
-            else if (s[5] == 'o')
+            if (i == 5)
             {
-                c++;
+                if (s[i] == 'o')
+                {
+                    c++;
+                }
             }
-            else if (s[6] == 'r')
+            if (i == 6)
             {
-                c++;
+                if (s[i] == 'r')
+                {
+                    c++;
+                }
             }
-            else if (s[7] == 'c')
+            if (i == 7)
             {
-                c++;
+                if (s[i] == 'c')
+                {
+                    c++;
+                }
             }
-            else if (s[8] == 'e')
+            if (i == 8)
             {
-                c++;
+                if (s[i] == 'e')
+                {
+                    c++;
+                }
             }
-            else if (s[9] == 's')
+            if (i == 9)
             {
-                c++;
+                if (s[i] == 's')
+                {
+                    c++;
+                }
             }
         }
         cout << len - c << endl;
